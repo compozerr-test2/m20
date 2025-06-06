@@ -1,15 +1,15 @@
 import React from "react"
 import { createFileRoute } from '@tanstack/react-router'
-import TemplateComponent from '../../template-component'
+import M20Component from '../../m20-component'
 
-export const Route = createFileRoute('/template/')({
+export const Route = createFileRoute('/m20/')({
   component: RouteComponent,
 })
 
 function RouteComponent() {
   return (
     <div>
-      <TemplateComponent name="World!" />
+      <M20Component name="World!" />
     </div>
   )
 }
